@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="cal.css">
+</head>
+<body>
+    <main>
+        <div>
+        <input class="display input" type="text">
+        </div>
+        <div class="flex flex-row" id = "box">
+            <button class="button basis-1/4 special">C</button>
+            <button class="button basis-1/4 special">+/-</button>
+            <button class="button basis-1/4 special">%</button>
+            <button class="button basis-1/4 special"><-</button>
+        </div>
+        <div class="flex flex-row" id = "box">
+            <button class="button basis-1/4">7</button>
+            <button class="button basis-1/4">8</button>
+            <button class="button basis-1/4">9</button>
+            <button class="button basis-1/4 special">/</button>
+        </div>
+        <div class="flex flex-row" id = "box">
+            <button class="button basis-1/4">4</button>
+            <button class="button basis-1/4">5</button>
+            <button class="button basis-1/4">6</button>
+            <button class="button basis-1/4 special">*</button>
+        </div>
+        <div class="flex flex-row" id = "box">
+            <button class="button basis-1/4">1</button>
+            <button class="button basis-1/4">2</button>
+            <button class="button basis-1/4">3</button>
+            <button class="button basis-1/4 special">-</button>
+        </div>
+        <div class="flex flex-row" id = "box">
+            <button class="button basis-1/4">0</button>
+            <button class="button basis-1/4">.</button>
+            <button class="button basis-1/4 special" style="background-color: #FFD85B;">=</button>
+            <button class="button basis-1/4 special">+</button>
+        </div>
+    </main>
+</body>
+<script src="cal.js"></script>
+</html>

@@ -1,0 +1,45 @@
+body{
+    background-image: linear-gradient(#E1216A, #2394F0);
+    height: 100vh;
+    color: aliceblue;
+}
+main{
+    margin: auto;
+    margin-top: 125px;
+    height: 450px;
+    width: 300px;
+    border: 1px solid black;
+    background-color: #566A77;
+    border-radius: 3%;
+}
+
+.display{
+    height: 70px;
+    width: 280px;
+    border-radius: 2%;
+    margin: auto;
+    margin-top: 10px;
+    border: 1px solid black;
+    text-align: end;
+    background-color: aliceblue;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 29px;
+}
+
+
+#box button{
+    border: 1px solid black;
+    border-radius: 30%;
+    margin: 10px;
+    height: 54.5px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #59829e;
+}
+
+.special{
+    background-color: #849DB0;
+}
